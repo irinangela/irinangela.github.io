@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #333;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .project-list {
+            max-width: 800px;
+            margin: 0 auto; 
+            text-align: left;
+        }
+
+        .project-card {
+            background: white;
+            border: 2px solid #333;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 5px 5px 0px #aaa;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 20px;
+            border: 2px solid #333;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-decoration: underline;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Projects</h1>
+
+    <div class="project-list">
+
+        <div class="project-card">
+            <h2>DBMS School Library System</h2>
+            <p>
+                As part of the Databases course in ECE NTUA, we created from scratch a simple 3-tier web application for a School Library using <strong>MariaDB</strong> for the database
+layer, <strong>Python/Flask</strong> for the backend, and <strong>HTML/CSS</strong> for the frontend. It handles data storage, retrieval, and indexing efficiently as well as providing a clean, user-friendly interface.
+                </p>
+            <a href="https://github.com/irinangela/DBMS_LIB.git" class="btn" target="_blank">View Code on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h2>Mobile App</h2>
+            <p>
+                A native mobile application built with <strong>Flutter</strong> and <strong>Firebase</strong> that gamifies creativity. Users receive daily art challenges, upload their submissions, and crowdsource favorites through a voting system. The app features a dedicated social mode where friends can form groups to compete. Designed in <strong>Figma</strong>, the project prioritizes clean UI/UX and highly responsive performance.
+                </p>
+            <a href="https://github.com/irinangela/ArtSync.git" class="btn" target="_blank">View Code on GitHub</a>
+        </div>
+
+      <div class="project-card">
+            <h2>Cafe Finder</h2>
+            <p>
+                Coffee places finder, depending on your current location, using <strong>JavaSrcipt</strong> and <strong>Google Maps/Places API</strong>.
+                </p>
+            <a href="https://github.com/irinangela/cafe_finder.git" class="btn" target="_blank">View Code on GitHub</a>
+        </div>
+
+      <div class="project-card">
+            <h2>AI Projects</h2>
+            <p>
+                A fun project for AI course where we used heuristic functions and search algorithms to navigate labyrinths, avoid obstacles and escape chasing ghosts. We experimented with different heuristics and demonstrated the use of AI in solving maze navigation problems. 
+                </p>
+            <a href="https://github.com/irinangela/AI_NTUA_Project.git" class="btn" target="_blank">View Code on GitHub</a>
+        </div>
+      
+    </div>
+
+    <a href="index.html" class="back-link">Back to Home</a>
+
+</body>
+</html>
